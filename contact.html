@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Homepage of CUHK Open Innovation Lab">
     <meta name="author" content="Jonathan">
-    <title>CUHK Opne Innovation Lab</title>
+    <title>CUHK Open Innovation Lab</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +26,26 @@
 
     <!-- Custom styles for this template -->
     <link href="homepage.css" rel="stylesheet">
+
+    <!-- The map API-->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
+        <script>
+        var myCenter=new google.maps.LatLng(22.418113, 114.207533);
+        function initialize()
+        {
+            var mapProp = {
+                center:myCenter,
+                zoom:14,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var marker=new google.maps.Marker({position:myCenter,});
+            marker.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -105,6 +125,18 @@
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="images/opensource-400.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+       <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Meetup Location<br><span class="text-muted">SHB 832, CUHK</span></h2>
+          <div class="col-md-5">
+           <div id="googleMap" style="width:500px;height:400px;"></div>
+          </div>
+
         </div>
       </div>
 
