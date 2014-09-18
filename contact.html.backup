@@ -42,18 +42,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">CUHK OIL</a>
+              <a class="navbar-brand" href="#">CUHK OIL</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsletter <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="http://cuhkoil.org/newsletter/">Subscribe</a></li>
-                    <li><a href="http://cuhkoil.org/newsletter/">Online newsletter</a></li>
+                    <li><a href="http://cuhkoil.org/newsletter.html">Subscribe</a></li>
+                    <li><a href="http://cuhkoil.org/newsletter.html">Online newsletter</a></li>
                   </ul>
                 </li>
               </ul>
@@ -64,60 +64,22 @@
       </div>
     </div>
 
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-
-        <div class="col-lg-12 col-md-offset-0">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <center>
-
-            <font size="65">Meetup 2014.09.12</font>
-
-        </center>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-
-          <h2 class="featurette-heading">Kivy -- <span class="text-muted">Jonathan Liang</span></h2>
-          <p class="lead">Kivy is a cross-platform project working on using python code to build app and running on Android, iOS, MacOS, Linux and Windows. Build your first mobile app? Try to follow Johnothon, and it is pretty easy!
-          </p>
+          <h2 class="featurette-heading">QRcode of Wechat Group</h2>
+          <p class="lead">Join our Wechat group to know more about our members!</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/Sep12/john.JPG" alt="Generic placeholder image">
-        </div>
-      </div>
-
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-
-          <h2 class="featurette-heading">Python -- <span class="text-muted">Leo Gao</span></h2>
-          <p class="lead">A brief introduction of python is given by Leo, to help the audience better understand the kivy project. Python, a very user-friendly language, has become more and more popular. </p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/Sep12/leo.JPG" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/qr_code.png" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -125,11 +87,12 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/Sep12/ben.JPG" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/opentalks.jpg" alt="Generic placeholder image">
+          <a href="https://www.facebook.com/groups/1452081561744599/">Facebook Group</a>
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Yo -- <span class="text-muted">Ben Crox</span></h2>
-          <p class="lead">Ben introduced an interesting app called Yo to us. It is a very simple app with very special design objectives. Download Yo on your phone to have a try.</p>
+          <h2 class="featurette-heading">Our Facebook Group</h2>
+          <p class="lead">On facebook website, you can like or join our group and keep updated with our meetup information.</p>
         </div>
       </div>
 
@@ -137,23 +100,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Book Search App --  <span class="text-muted">Carson Ip</span></h2>
-          <p class="lead">Carson introduced his app based on Android. The book search app can help the users to find useful books easily.</p>
+          <h2 class="featurette-heading">Map of our Meetup place<span class="text-muted">on Google map.</span></h2>
+          <p class="lead"><a href="https://docs.google.com/drawings/d/1iLvp4ReYxs5vSYY3PW1ZuepHwgWzAyxtnOy1Qeif_B0/edit">Docs on google for map</a></p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/Sep12/book.JPG" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-          <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Password Generator --  <span class="text-muted">YIn Li</span></h2>
-          <p class="lead">Yin gave a short introduction of his project based on R language. The password generator can generate appropriate passwords for users.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/Sep12/yi.JPG" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/opensource-400.png" alt="Generic placeholder image">
         </div>
       </div>
 
