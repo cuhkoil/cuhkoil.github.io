@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The Homepage of CUHK Open Innovation Lab">
     <meta name="author" content="Jonathan">
-    <title>CUHK Open Innovation Lab</title>
+    <title>CUHK Opne Innovation Lab</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,26 +26,6 @@
 
     <!-- Custom styles for this template -->
     <link href="homepage.css" rel="stylesheet">
-
-    <!-- The map API-->
-        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
-        <script>
-        var myCenter=new google.maps.LatLng(22.418113, 114.207533);
-        function initialize()
-        {
-            var mapProp = {
-                center:myCenter,
-                zoom:14,
-                mapTypeId:google.maps.MapTypeId.ROADMAP
-            };
-            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            var marker=new google.maps.Marker({position:myCenter,});
-            marker.setMap(map);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
-
-
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -62,14 +42,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">CUHK OIL</a>
+              <a class="navbar-brand" href="index.html">CUHK OIL</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="http://cuhkoil.org/newsletter/">NewsLetter</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="news.html">News</a></li>
+                <!--li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Newsletter <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="http://cuhkoil.org/newsletter/">Subscribe</a></li>
+                    <li><a href="http://cuhkoil.org/newsletter/">Online newsletter</a></li>
+                  </ul>
+                </li-->
               </ul>
             </div>
           </div>
@@ -78,23 +65,45 @@
       </div>
     </div>
 
+
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+
+        <div class="col-lg-12 col-md-offset-0">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <center>
+
+            <font size="65">Meetup 2014.09.19</font>
+
+        </center>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
       <!-- START THE FEATURETTES -->
+
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <iframe src="https://docs.google.com/presentation/d/1n4-34EOPDK6JZ-HYhRkEtD0uAb7JSDoup0Yk6j9eQVs/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+          <h2 class="featurette-heading">Snacks Time</h2>
+          <p class="lead">Members of OIL shared their ideas about Open Source Projects and made friends with each other.</p>
         </div>
         <div class="col-md-5">
-          <h2 class="featurette-heading">About OIL</h2>
-          <p class="lead">What is Open Innovation Lab?</p>
-          <p class="lead"> Introductory slides</p>
-          <p class="lead"><a class="btn btn-primary" href="http://bit.ly/cuhkoil" role="button">View the slides&raquo;</a></p>
+          <img class="featurette-image img-responsive" src="images/Sep19/talk.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -102,11 +111,11 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/opentalks.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/Sep19/piliintro.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading"><a href="https://www.facebook.com/groups/cuhkoil/"> Our Facebook Group</a><br/><a href="https://www.facebook.com/cuhkoil/"> Our Facebook Page</a></h2>
-          <p class="lead">On facebook website, you can like or join our group and keep updated with our meetup information.</p>
+          <h2 class="featurette-heading">Introduction of the theme today - <span class="text-muted">by Pili Hu</span></h2>
+          <p class="lead">Pili gave a short introduction of the topic of this meetup and passed the stage to the speaker. </p>
         </div>
       </div>
 
@@ -114,23 +123,23 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">QRcode of Wechat Group</h2>
-          <p class="lead">Join our Wechat group to know more about our members!</p>
+          <h2 class="featurette-heading">Self-Introduction - <span class="text-muted">Lau Chun Yin Vincent</span></h2>
+          <p class="lead">Vincent gave a brief introduction of himself and talked about the agenda of his speech. </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/qr_code.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/Sep19/intro.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+          <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Map of our Meetup place<span class="text-muted"> on Google map.</span></h2>
-          <p class="lead"><a href="https://docs.google.com/drawings/d/1iLvp4ReYxs5vSYY3PW1ZuepHwgWzAyxtnOy1Qeif_B0/edit">Docs on google for map</a></p>
+          <h2 class="featurette-heading">Project Demonstration - <span class="text-muted">Lau Chun Yin Vincent</span></h2>
+          <p class="lead">Vincent demonstrated some of his projects and showed us how to visualize some raw data.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="images/opensource-400.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="images/Sep19/demo.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -138,11 +147,11 @@
 
        <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Meetup Location<br><span class="text-muted">SHB 832, CUHK</span></h2>
-          <div class="col-md-5">
-           <div id="googleMap" style="width:500px;height:400px;"></div>
-          </div>
-
+          <h2 class="featurette-heading">Recent Activities - <span class="text-muted">Lau Chun Yin Vincent</span></h2>
+          <p class="lead">Vincent shared a recent open source activity and introduced some other people active in the open source community.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/Sep19/otherpeople.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
